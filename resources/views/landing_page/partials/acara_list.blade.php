@@ -153,6 +153,9 @@
                 <p class="mb-3">
                     <strong>Dilaksakan :</strong>&nbsp;{{ $acara->sifat }}
                 </p>
+                <p class="mb-3">
+                    <strong>Catatan :</strong>&nbsp;{{ $acara->catatan }}
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
